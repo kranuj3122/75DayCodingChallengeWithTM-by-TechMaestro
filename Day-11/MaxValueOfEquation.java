@@ -2,7 +2,7 @@
 public class MaxValueOfEquation {
     static class DiffAndX {
         int diff, x;
-        Pair(int diff, int x) {
+        DiffAndX(int diff, int x) {
             this.diff = diff;
             this.x = x;
         }
