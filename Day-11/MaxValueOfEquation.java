@@ -2,7 +2,7 @@
 public class MaxValueOfEquation {
     static class DiffAndX {
         int diff, x;
-        Pair(int diff, int x) {
+        DiffAndX(int diff, int x) {
             this.diff = diff;
             this.x = x;
         }
@@ -17,7 +17,7 @@ public class MaxValueOfEquation {
             }
         });
         int n = points.length;
-        int ans = Integer.MIN_VALUE;
+        int res = Integer.MIN_VALUE;
         for(int i=0; i<n; i++) {
             int x = points[i][0];
             int y = points[i][1];
@@ -25,10 +25,10 @@ public class MaxValueOfEquation {
                 pq.poll();
             }
             if(!pq.isEmpty()) {
-                ans = Math.max(ans, x+y+pq.peek().diff);
+                res = Math.max(res, x+y+pq.peek().diff);
             }
             pq.add(new DiffAndX(y-x, x));
         }
-        return ans;
+        return res;
     }
 }
