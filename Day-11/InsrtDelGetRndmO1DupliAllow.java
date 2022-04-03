@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class InsrtDelGetRndmO1DupliAllow {
     Map<Integer, Set<Integer>> mp;
@@ -47,7 +48,8 @@ public class InsrtDelGetRndmO1DupliAllow {
     }
     
     public int getRandom() {
-        int randIndex = ((int)(Math.random()*1000000)) % list.size();
+        int randVal = ((int)(Math.random()*1000000));
+        int randIndex = randVal % list.size();
         return list.get(randIndex);
     }
 }

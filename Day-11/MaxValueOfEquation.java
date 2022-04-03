@@ -1,6 +1,6 @@
 
 public class MaxValueOfEquation {
-    static class Pair {
+    static class DiffAndX {
         int diff, x;
         Pair(int diff, int x) {
             this.diff = diff;
@@ -8,8 +8,8 @@ public class MaxValueOfEquation {
         }
     }
     public int findMaxValueOfEquation(int[][] points, int k) {
-        PriorityQueue<Pair> pq = new PriorityQueue<>(new Comparator<>() {
-            public int compare(Pair a, Pair b) {
+        PriorityQueue<DiffAndX> pq = new PriorityQueue<>(new Comparator<>() {
+            public int compare(DiffAndX a, DiffAndX b) {
                 if(a.diff != b.diff) {
                     return b.diff - a.diff;
                 }
@@ -27,7 +27,7 @@ public class MaxValueOfEquation {
             if(!pq.isEmpty()) {
                 ans = Math.max(ans, x+y+pq.peek().diff);
             }
-            pq.add(new Pair(y-x, x));
+            pq.add(new DiffAndX(y-x, x));
         }
         return ans;
     }
