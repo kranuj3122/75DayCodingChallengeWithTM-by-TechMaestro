@@ -1,9 +1,9 @@
-import java.util.List;
+import java.util.*;
 
 public class InsrtDelGetRndmO1DupliAllow {
     Map<Integer, Set<Integer>> mp;
     List<Integer> list;
-    public RandomizedCollection() {
+    public InsrtDelGetRndmO1DupliAllow() {
         mp = new HashMap<>();
         list = new ArrayList<>();
     }
