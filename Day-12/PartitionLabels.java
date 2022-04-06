@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class PartitionLabels {
     public List<Integer> partitionLabels(String s) {
