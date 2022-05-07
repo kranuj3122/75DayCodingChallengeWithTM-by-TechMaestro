@@ -1,0 +1,13 @@
+/*
+
+* Binary heap -> " https://www.geeksforgeeks.org/binary-heap/ "
+
+* TC for building heap -> " https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/ "
+
+* Application of heap -> " https://www.geeksforgeeks.org/applications-of-heap-data-structure/ "
+
+* Heap sort -> " https://www.geeksforgeeks.org/heap-sort/ "
+
+* Why binary heap is prefered over BST for PQ -> " https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/ "
+
+*/
