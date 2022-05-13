@@ -1,0 +1,11 @@
+1.) https://www.geeksforgeeks.org/dynamic-programming/
+
+2.) https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/
+
+3.) https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
+4.) https://leetcode.com/discuss/general-discussion/662866/Dynamic-Programming-for-Practice-Problems-Patterns-and-Sample-Solutions
+
+5.) https://www.youtube.com/watch?v=PHmgyQVKduc
+
+6.) https://www.youtube.com/watch?v=FfXoiwwnxFw&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=1
