@@ -1,0 +1,7 @@
+/*
+
+Kruskal's Algorithm -> https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+
+Boruvka’s algorithm -> https://www.geeksforgeeks.org/boruvkas-algorithm-greedy-algo-9/
+
+*/
