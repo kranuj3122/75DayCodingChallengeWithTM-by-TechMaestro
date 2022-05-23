@@ -1,0 +1,7 @@
+/*
+
+Floyd Warshall -> https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
+
+Kosaraju's algorithm -> https://www.geeksforgeeks.org/connectivity-in-a-directed-graph/
+
+*/
