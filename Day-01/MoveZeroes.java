@@ -1,5 +1,6 @@
 
 public class MoveZeroes {
+    // function to moveZeros
     public void moveZeroes(int[] nums) {
         int nonZero = 0;
         int n = nums.length;
